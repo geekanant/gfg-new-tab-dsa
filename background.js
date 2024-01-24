@@ -23,22 +23,28 @@ const questions = [
     output: "0 0 1 2 2",
     explanation: "0s 1s and 2s are segregated into ascending order.",
   },
-  // {
-  //   question: "Minimum no. of Jumps to reach end of an array	",
-  //   source: "GeeksforGeeks",
-  //   link_to_solve:
-  //     "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0",
-  //   link_website: "geeksforgeeks",
-  //   topic: "arrays",
-  // },
-  // {
-  //   question: "Find maximum product subarray",
-  //   source: "GeeksforGeeks",
-  //   link_to_solve:
-  //     "https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1",
-  //   link_website: "geeksforgeeks",
-  //   topic: "arrays",
-  // },
+  {
+    question: "Minimum no. of Jumps to reach end of an array	",
+    source: "GeeksforGeeks",
+    link_to_solve:
+      "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0",
+    link_website: "geeksforgeeks",
+    topic: "arrays",
+    input: "N = 11, arr[] = {1,3,5,8,9,2,6,7,6,8,9}",
+    output: "3",
+    explanation: "3 is the minimum number of jumps to reach end of array.",
+  },
+  {
+    question: "Find maximum product subarray",
+    source: "GeeksforGeeks",
+    link_to_solve:
+      "https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1",
+    link_website: "geeksforgeeks",
+    topic: "arrays",
+    input: "N = 5, arr[] = {6, -3, -10, 0, 2}",
+    output: "180",
+    explanation: "Subarray with maximum product is 6, -3, -10 which gives 180.",
+  },
   // {
   //   question: "Find whether an array is a subset of another array	",
   //   source: "GeeksforGeeks",
@@ -72,14 +78,17 @@ const questions = [
   //   link_website: "geeksforgeeks",
   //   topic: "arrays",
   // },
-  // {
-  //   question: "Rotate a matrix by 90 degrees",
-  //   source: "GeeksforGeeks",
-  //   link_to_solve:
-  //     "https://practice.geeksforgeeks.org/problems/rotate-by-90-degree0356/1",
-  //   link_website: "geeksforgeeks",
-  //   topic: "matrix",
-  // },
+  {
+    question: "Rotate a matrix by 90 degrees",
+    source: "GeeksforGeeks",
+    link_to_solve:
+      "https://practice.geeksforgeeks.org/problems/rotate-by-90-degree0356/1",
+    link_website: "geeksforgeeks",
+    topic: "matrix",
+    input: "N = 3, matrix[][] = {{1, 2, 3},{4, 5, 6},{7, 8, 9}}",
+    output: "3 6 9 2 5 8 1 4 7",
+    explanation: "Matrix is rotated by 90 degree anticlockwise.",
+  },
   // {
   //   question: "Check whether a String is Palindrome or not",
   //   source: "GeeksforGeeks",
@@ -105,23 +114,29 @@ const questions = [
   //   link_website: "geeksforgeeks",
   //   topic: "strings",
   // },
-  // {
-  //   question: "Count All Palindromic Subsequence in a given String.	",
-  //   source: "GeeksforGeeks",
-  //   link_to_solve:
-  //     "https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1",
-  //   link_website: "geeksforgeeks",
-  //   topic: "strings",
-  // },
-  // {
-  //   question:
-  //     "Write a program to generate all possible valid IP addresses from given  string.",
-  //   source: "GeeksforGeeks",
-  //   link_to_solve:
-  //     "https://practice.geeksforgeeks.org/problems/generate-ip-addresses/1",
-  //   link_website: "geeksforgeeks",
-  //   topic: "strings",
-  // },
+  {
+    question: "Count All Palindromic Subsequence in a given String.	",
+    source: "GeeksforGeeks",
+    link_to_solve:
+      "https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1",
+    link_website: "geeksforgeeks",
+    topic: "Strings",
+    input: "abbaeae",
+    output: "4",
+    explanation:  "Palindromic subsequence are : a, b, aa, aba"
+  },
+  {
+    question:
+      "Write a program to generate all possible valid IP addresses from given  string.",
+    source: "GeeksforGeeks",
+    link_to_solve:
+      "https://practice.geeksforgeeks.org/problems/generate-ip-addresses/1",
+    link_website: "geeksforgeeks",
+    topic: "Strings",
+    input: "1111",
+    output: "1.1.1.1",
+    explanation: "For string 1111, the  possible IP addresses are 1.1.1.1"
+  },
   // {
   //   question: "Count of number of given string in 2D character array	",
   //   source: "GeeksforGeeks",
@@ -293,14 +308,17 @@ const questions = [
   //   link_website: "geeksforgeeks",
   //   topic: "bitmanipulation",
   // },
-  // {
-  //   question: "Count total set bits in all numbers from 1 to n",
-  //   source: "GeeksforGeeks",
-  //   link_to_solve:
-  //     "https://practice.geeksforgeeks.org/problems/count-total-set-bits/0",
-  //   link_website: "geeksforgeeks",
-  //   topic: "bitmanipulation",
-  // },
+  {
+    question: "Count total set bits in all numbers from 1 to n",
+    source: "GeeksforGeeks",
+    link_to_solve:
+      "https://practice.geeksforgeeks.org/problems/count-total-set-bits/0",
+    link_website: "geeksforgeeks",
+    topic: "Bit Manipulation",
+    input:  "4",
+    output: "5",
+    explanation: "0 1 1 2 1 2 2 3 1 2 2 3 2 3 3 4"
+  },
   // {
   //   question: "Program to find whether a no is power of two	",
   //   source: "GeeksforGeeks",
@@ -341,14 +359,17 @@ const questions = [
   //   link_website: "geeksforgeeks",
   //   topic: "dynamicprogramming",
   // },
-  // {
-  //   question: "Maximum profit by buying and selling a share at most k times	",
-  //   source: "GeeksforGeeks",
-  //   link_to_solve:
-  //     "https://practice.geeksforgeeks.org/problems/maximum-profit4657/1",
-  //   link_website: "geeksforgeeks",
-  //   topic: "dynamicprogramming",
-  // },
+  {
+    question: "Maximum profit by buying and selling a share at most k times	",
+    source: "GeeksforGeeks",
+    link_to_solve:
+      "https://practice.geeksforgeeks.org/problems/maximum-profit4657/1",
+    link_website: "geeksforgeeks",
+    topic: "Dynamic Programming",
+    input: "6, 5, 4, 3, 2, 1, 2, 5, 7, 1, 3, 4",
+    output: "10",
+    explanation: "Buy at price 1, sell at 5, buy at 1, sell at 4"
+  },
   // {
   //   question: "Maximum profit by buying and selling a share at most twice",
   //   source: "GeeksforGeeks",
