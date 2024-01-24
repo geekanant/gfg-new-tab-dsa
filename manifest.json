@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GeeksforGeeks Data Structures & Algorithms ",
+  "version": "1.0",
+  "description": "Now revise and solve a random DSA question from Chrome itself.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
